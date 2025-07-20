@@ -1,12 +1,13 @@
 import GridContainer from "../GridContainer";
 import HeroButtons from "./components/hero-buttons";
 import TagFeature from "./components/tag-feature";
+import Image from "next/image";
 
 const SectionHero = () => {
   return (
     <section className="pt-24">
       <GridContainer>
-        <div className="text-center">
+        <div className="text-center ">
           <TagFeature />
           <h1 className="text-6xl font-semibold text-gray-900 mt-4 mb-6">
             Belas análises para crescimento inteligente
@@ -18,6 +19,13 @@ const SectionHero = () => {
           </p>
           <HeroButtons />
         </div>
+          <Image 
+            src="/assets/macbook.svg"
+            alt="macbook mockup"
+            width={1216}
+            height={480}
+          />
+          <hr className="border-gray-200 mb-24"/>
       </GridContainer>
     </section>
   );

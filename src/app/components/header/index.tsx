@@ -27,7 +27,7 @@ const listLinks = [
 
 const Header = () => {
   return (
-    <header className="sticky top-0 z-50 bg-white w-full h-20 flex items-center border-b border-b-gray-100">
+    <header className="sticky top-0 z-50 bg-white w-full h-15 flex items-center border-b border-b-gray-100">
       <GridContainer className="flex justify-between items-center">
         <div className="flex items-center gap-10">
           <Image src="/assets/logo.svg" alt="logo" width={140} height={40} />
@@ -46,8 +46,8 @@ const Header = () => {
           <Image 
             src='/assets/avatar.jpg'
             alt="avatar"
-            width={40}
-            height={40}
+            width={35}
+            height={35}
             className="cursor-pointer"
           />
         </div>
