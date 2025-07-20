@@ -1,0 +1,19 @@
+import Link from "next/link"
+import { FiChevronDown } from "react-icons/fi"
+
+interface ItemLinkType {
+  title: string
+  url: string
+  hasDropDown?: boolean
+}
+
+const ItemLink = ({ title, url, hasDropDown }: ItemLinkType) => {
+  return (
+    <Link
+    className="flex items-center gap-1 font-semibold text-gray-500 hover:opacity-50"
+      href={url}
+    >{title} {hasDropDown && <FiChevronDown />}</Link>
+  )
+}
+
+export default ItemLink
