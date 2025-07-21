@@ -3,35 +3,30 @@ import { IconCompany } from "./components/icon-company";
 
 const itemsIcons = [
   {
-    id: 1,
     src: "/assets/layers.svg",
     alt: "layers",
     width: 146,
     height: 48,
   },
   {
-    id: 2,
     src: "/assets/sisyphus.svg",
     alt: "sisyphus",
     width: 169,
     height: 48,
   },
   {
-    id: 3,
     src: "/assets/circooles.svg",
     alt: "circooles",
     width: 183,
     height: 48,
   },
   {
-    id: 4,
     src: "/assets/catalog.svg",
     alt: "catalog",
     width: 160,
     height: 48,
   },
   {
-    id: 5,
     src: "/assets/quotient.svg",
     alt: "quotient",
     width: 187,

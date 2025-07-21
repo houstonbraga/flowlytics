@@ -1,7 +1,6 @@
 import Image from "next/image"
 
 interface IconCompanyType {
-  id?: number,
   src: string,
   alt: string,
   width: number,
