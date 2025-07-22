@@ -1,4 +1,11 @@
-import { FiBarChart2, FiMail, FiZap } from "react-icons/fi";
+import {
+  FiBarChart2,
+  FiCommand,
+  FiMail,
+  FiMessageCircle,
+  FiSmile,
+  FiZap,
+} from "react-icons/fi";
 import CharacteristicsOnly from "./characteristicOnly";
 
 const listCharacteristics = [
@@ -21,30 +28,35 @@ const listCharacteristics = [
       "Meça o que importa com os relatórios fáceis de usar do Untitled. Você pode filtrar, exportar e perfurar os dados em alguns cliques.",
   },
   {
-    icon: <FiBarChart2 />,
-    title: "Gerencie sua equipe com relatórios",
+    icon: <FiSmile />,
+    title: "Conecte -se com os clientes",
     description:
-      "Meça o que importa com os relatórios fáceis de usar do Untitled. Você pode filtrar, exportar e perfurar os dados em alguns cliques.",
+      "Resolva um problema ou feche uma venda em tempo real com o bate-papo. Se ninguém estiver disponível, os clientes são perfeitamente roteados para e -mail sem confusão.",
   },
   {
-    icon: <FiBarChart2 />,
-    title: "Gerencie sua equipe com relatórios",
+    icon: <FiCommand />,
+    title: "Conecte as ferramentas que você já usa",
     description:
-      "Meça o que importa com os relatórios fáceis de usar do Untitled. Você pode filtrar, exportar e perfurar os dados em alguns cliques.",
+      "Explore mais de 100 integrações que tornam seu fluxo de trabalho diário mais eficiente e familiar. Além disso, nossas extensas ferramentas de desenvolvedor.  ",
   },
   {
-    icon: <FiBarChart2 />,
-    title: "Gerencie sua equipe com relatórios",
+    icon: <FiMessageCircle />,
+    title: "Nosso povo faz a diferença",
     description:
-      "Meça o que importa com os relatórios fáceis de usar do Untitled. Você pode filtrar, exportar e perfurar os dados em alguns cliques.",
+      "Somos uma extensão da sua equipe de atendimento ao cliente e todos os nossos recursos são gratuitos. Converse com nossa equipe amigável 24/7 quando precisar de ajuda.",
   },
 ];
 
 export default function Characteristics() {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-16 gap-x-8">
-      {listCharacteristics.map(({icon, title, description}, index) => (
-        <CharacteristicsOnly key={index} icon={icon} title={title} description={description}/>
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-16 gap-x-8 items-start mb-24">
+      {listCharacteristics.map(({ icon, title, description }, index) => (
+        <CharacteristicsOnly
+          key={index}
+          icon={icon}
+          title={title}
+          description={description}
+        />
       ))}
     </div>
   );
