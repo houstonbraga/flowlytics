@@ -38,9 +38,9 @@ const SectionCompanies = () => {
   return (
     <section>
       <GridContainer>
-        <div className="flex flex-col text-center gap-8 pb-24 mb-24 border-b border-b-gray-200">
-          <span className="text-gray-600">
-            Junte -se a mais de 4.000 empresas que já crescem
+        <div className="flex flex-col text-center gap-8 pb-24 mb-24 border-b border-b-gray-800">
+          <span className="text-white">
+            Junte-se a mais de 4.000 empresas que já crescem
           </span>
           <div className="flex justify-around items-center flex-wrap">
             {itemsIcons.map(({src, alt, width, height}, index) => (

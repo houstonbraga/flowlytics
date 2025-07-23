@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const SectionSisyphus = () => {
   return (
-    <section className="bg-gray-100 py-24 mb-24">
+    <section className="bg-white py-24 mb-24">
       <GridContainer>
         <div className="flex flex-col items-center gap-8">
           <Image
@@ -12,7 +12,7 @@ const SectionSisyphus = () => {
             width={140}
             height={40}
           />
-          <h1 className="text-5xl font-semibold max-w-6xl text-center">
+          <h1 className="text-5xl font-semibold max-w-6xl text-center text-gray-950">
             Temos usado sem título para iniciar todos os novos projetos e não
             podemos imaginar trabalhar sem ele.
           </h1>
@@ -24,8 +24,8 @@ const SectionSisyphus = () => {
               height={64}
               className="mb-4"
             />
-            <h2 className="text-xl font-semibold mb-1">Ronaldo Caio</h2>
-            <h3 className="text-gray-500">Gerente de Produto, Sisyphus</h3>
+            <h2 className="text-xl font-semibold mb-1 text-gray-950">Ronaldo Caio</h2>
+            <h3 className="text-gray-600">Gerente de Produto, Sisyphus</h3>
           </div>
         </div>
       </GridContainer>

@@ -14,6 +14,7 @@ export function IconCompany({ src, alt, width, height }: IconCompanyType) {
       alt={alt}
       width={width}
       height={height}
+      className="grayscale brightness-400"
     />
   )
 }

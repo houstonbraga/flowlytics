@@ -9,10 +9,10 @@ const SectionHero = () => {
       <GridContainer>
         <div className="text-center ">
           <TagFeature />
-          <h1 className="text-6xl font-semibold text-gray-900 mt-4 mb-6">
+          <h1 className="text-6xl font-semibold text-white mt-8 mb-6">
             Belas análises para crescimento inteligente
           </h1>
-          <p className="text-xl/6 text-gray-600 max-w-[850px] m-auto mb-12">
+          <p className="text-xl/6 text-gray-400 max-w-[850px] m-auto mb-12">
             Produtos poderosos e de autoatendimento e análise de crescimento
             para ajudá-lo a converter, envolver e reter mais usuários. Confie em
             mais de 4.000 startups.
@@ -25,7 +25,7 @@ const SectionHero = () => {
             width={1216}
             height={480}
           />
-          <hr className="border-gray-200 mb-24"/>
+          <hr className="border-gray-800 mb-24"/>
       </GridContainer>
     </section>
   );
