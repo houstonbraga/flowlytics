@@ -1,29 +1,8 @@
 import GridContainer from "../GridContainer";
 import Image from "next/image";
 import ItemLink from "./components/itemLink";
+import { listLinks } from "@/app/data/data";
 
-const listLinks = [
-  {
-    title: "Home",
-    url: "/home",
-    dropdown: false,
-  },
-  {
-    title: "Produtos",
-    url: "/products",
-    dropdown: true,
-  },
-  {
-    title: "Recursos",
-    url: "/resources",
-    dropdown: true,
-  },
-  {
-    title: "Preço",
-    url: "/resources",
-    dropdown: false,
-  },
-];
 
 const Header = () => {
   return (

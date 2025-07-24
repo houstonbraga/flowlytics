@@ -1,38 +1,7 @@
 import GridContainer from "../GridContainer";
 import { IconCompany } from "./components/icon-company";
+import { itemsIcons } from "@/app/data/data";
 
-const itemsIcons = [
-  {
-    src: "/assets/layers.svg",
-    alt: "layers",
-    width: 146,
-    height: 48,
-  },
-  {
-    src: "/assets/sisyphus.svg",
-    alt: "sisyphus",
-    width: 169,
-    height: 48,
-  },
-  {
-    src: "/assets/circooles.svg",
-    alt: "circooles",
-    width: 183,
-    height: 48,
-  },
-  {
-    src: "/assets/catalog.svg",
-    alt: "catalog",
-    width: 160,
-    height: 48,
-  },
-  {
-    src: "/assets/quotient.svg",
-    alt: "quotient",
-    width: 187,
-    height: 48,
-  },
-];
 
 const SectionCompanies = () => {
   return (
