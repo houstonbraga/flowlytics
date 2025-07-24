@@ -1,3 +1,4 @@
+import Button from "../Button";
 import GridContainer from "../GridContainer";
 import ListIcons from "./components/ListIcons";
 
@@ -16,6 +17,9 @@ const SectionIntegrations = () => {
             favoritas da sua equipe estão a apenas um clique de distância.
           </p>
           <ListIcons />
+          <Button 
+            text="Veja todas as integrações"
+          />
         </div>
       </GridContainer>
     </section>
