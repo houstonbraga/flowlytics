@@ -8,14 +8,14 @@ export default function MockupResources() {
         alt='screenmackbook'
         width={244}
         height={497}
-        className="absolute bottom-0 left-0"
+        className="absolute -bottom-12 left-0 drop-shadow-5xl"
       />
       <Image 
         src='/assets/screen-macbook.png'
         alt='screenmackbook'
         width={768}
         height={512}
-        className="ml-24"
+        className="rounded-2xl ml-15"
       />
     </div>
   )
