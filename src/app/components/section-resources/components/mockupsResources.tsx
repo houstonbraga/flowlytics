@@ -2,20 +2,20 @@ import Image from "next/image"
 
 export default function MockupResources() {
   return (
-    <div className="max-w-[888px] max-h-[561px] flex items-center justify-center relative mb-24">
-      <Image 
-        src='/assets/iphone.png'
-        alt='screenmackbook'
-        width={244}
-        height={497}
-        className="absolute -bottom-12 left-0 drop-shadow-5xl"
-      />
+    <div className="w-full max-w-[888px] h-[561px] flex items-center justify-center relative mx-auto mb-24">
       <Image 
         src='/assets/screen-macbook.png'
         alt='screenmackbook'
         width={768}
         height={512}
-        className="rounded-2xl ml-15"
+        className="absolute top-0 right-0 rounded-2xl"
+      />
+      <Image 
+        src='/assets/iphone.png'
+        alt='screenmackbook'
+        width={244}
+        height={497}
+        className="absolute bottom-0 left-0"
       />
     </div>
   )
