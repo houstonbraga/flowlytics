@@ -6,6 +6,7 @@ import SectionIntegrations from "./components/section-integrations"
 import SectionQuestions from "./components/section-questions"
 import SectionResources from "./components/section-resources"
 import SectionSisyphus from "./components/section-sisyphus"
+import SectionStillQuestions from "./components/section-still-questions"
 
 const Page = () => {
   return (
@@ -18,6 +19,7 @@ const Page = () => {
       <SectionResources />
       <SectionIntegrations />
       <SectionQuestions />
+      <SectionStillQuestions />
     </>
     
   )
