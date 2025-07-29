@@ -1,6 +1,7 @@
 import Header from "./components/header"
 import SectionCharacteristics from "./components/section-characteristics"
 import SectionCompanies from "./components/section-companies"
+import SectionCta from "./components/section-cta"
 import SectionHero from "./components/section-hero"
 import SectionIntegrations from "./components/section-integrations"
 import SectionMetrics from "./components/section-metrics"
@@ -22,6 +23,7 @@ const Page = () => {
       <SectionQuestions />
       <SectionStillQuestions />
       <SectionMetrics />
+      <SectionCta />
     </>
     
   )

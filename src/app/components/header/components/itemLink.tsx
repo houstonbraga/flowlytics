@@ -12,7 +12,7 @@ const ItemLink = ({ title, url, hasDropDown }: ItemLinkType) => {
     <Link
     className="flex items-center gap-1 font-semibold text-neutral-300 hover:opacity-50 transition-opacity"
       href={url}
-    >{title} {hasDropDown && <FiChevronDown />}</Link>
+    >{title} {hasDropDown && <FiChevronDown />}</Link>  
   )
 }
 
