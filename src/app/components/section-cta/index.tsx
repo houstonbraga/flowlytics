@@ -3,7 +3,7 @@ import { GroupButtons } from "./components/GroupButtons"
 
 const SectionCta = () => {
   return (
-    <section className="bg-white text-gray-950 py-24">
+    <section className="bg-white text-gray-950 py-24 mb-24">
       <GridContainer>
         <div className="flex flex-col items-center">
           <h1 className="text-4xl font-semibold mb-5">Comece sua avaliação gratuita</h1>

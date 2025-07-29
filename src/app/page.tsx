@@ -1,3 +1,4 @@
+import Footer from "./components/footer"
 import Header from "./components/header"
 import SectionCharacteristics from "./components/section-characteristics"
 import SectionCompanies from "./components/section-companies"
@@ -24,6 +25,7 @@ const Page = () => {
       <SectionStillQuestions />
       <SectionMetrics />
       <SectionCta />
+      <Footer />
     </>
     
   )

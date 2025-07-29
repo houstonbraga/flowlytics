@@ -4,7 +4,6 @@ import ItemLink from "./components/itemLink";
 import { listLinks } from "@/app/data/data";
 import Link from "next/link";
 
-
 const Header = () => {
   return (
     <header className="sticky top-0 z-50 bg-gray-950 w-full h-18 flex items-center border-b border-b-gray-800">
@@ -22,8 +21,11 @@ const Header = () => {
             ))}
           </nav>
         </div>
-        <Link href='/' className="font-bold text-brand hover:opacity-80 transition-opacity">
-          Dashboard  
+        <Link
+          href="/"
+          className="font-bold text-brand hover:opacity-80 transition-opacity"
+        >
+          Dashboard
         </Link>
       </GridContainer>
     </header>
