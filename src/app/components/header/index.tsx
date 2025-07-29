@@ -2,6 +2,7 @@ import GridContainer from "../GridContainer";
 import Image from "next/image";
 import ItemLink from "./components/itemLink";
 import { listLinks } from "@/app/data/data";
+import Link from "next/link";
 
 
 const Header = () => {
@@ -21,15 +22,9 @@ const Header = () => {
             ))}
           </nav>
         </div>
-        <div>
-          <Image 
-            src='/assets/avatar.jpg'
-            alt="avatar"
-            width={35}
-            height={35}
-            className="cursor-pointer rounded-full"
-          />
-        </div>
+        <Link href='/' className="font-bold text-brand hover:opacity-80 transition-opacity">
+          Dashboard  
+        </Link>
       </GridContainer>
     </header>
   );

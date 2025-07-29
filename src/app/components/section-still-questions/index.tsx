@@ -4,9 +4,9 @@ import Image from "next/image";
 
 const SectionStillQuestions = () => {
   return (
-    <section className="bg-white text-gray-950">
+    <section>
       <GridContainer>
-        <div className="flex flex-col items-center gap-8 py-8">
+        <div className="flex flex-col items-center gap-8 py-8 bg-white text-gray-950 rounded-2xl">
           <Image src="/assets/users.png" width={120} height={56} alt="users" />
           <div className="text-center space-y-2">
             <h2 className="text-xl font-semibold">Ainda tem perguntas?</h2>
@@ -15,9 +15,7 @@ const SectionStillQuestions = () => {
               favor, converse com nossa equipe amigável.
             </p>
           </div>
-          <Button 
-            text="Entre em contato"
-          />
+          <Button text="Entre em contato" />
         </div>
       </GridContainer>
     </section>
