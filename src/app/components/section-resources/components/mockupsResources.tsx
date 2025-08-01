@@ -8,14 +8,14 @@ export default function MockupResources() {
         alt='screenmackbook'
         width={768}
         height={512}
-        className="absolute top-0 right-0 rounded-2xl"
+        className="absolute top-0 right-0 rounded-2xl hidden md:block"
       />
       <Image 
         src='/assets/iphone.png'
         alt='screenmackbook'
         width={244}
         height={497}
-        className="absolute bottom-0 left-0"
+        className="absolute md:bottom-0 md:left-0"
       />
     </div>
   )

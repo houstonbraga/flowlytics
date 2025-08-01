@@ -6,7 +6,7 @@ const SectionStillQuestions = () => {
   return (
     <section>
       <GridContainer>
-        <div className="flex flex-col items-center gap-8 py-8 bg-white text-gray-950 rounded-2xl">
+        <div className="flex flex-col items-center gap-8 py-8 px-4 bg-white text-gray-950 rounded-2xl">
           <Image src="/assets/users.png" width={120} height={56} alt="users" />
           <div className="text-center space-y-2">
             <h2 className="text-xl font-semibold">Ainda tem perguntas?</h2>

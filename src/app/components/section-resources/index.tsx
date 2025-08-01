@@ -5,7 +5,7 @@ const SectionResources = () => {
   return (
     <section>
       <GridContainer>
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center text-center">
           <div className="bg-brand py-0.5 px-4 text-center inline-block rounded-full mb-4">
             <span className="text-white font-semibold">Recursos</span>
           </div>
