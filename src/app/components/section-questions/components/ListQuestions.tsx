@@ -14,25 +14,25 @@ const questions = [
   {
     question: "Posso mudar meu plano mais tarde?",
     response:
-      "Sim, você pode nos experimentar gratuitamente por 30 dias. Se você quiser, forneceremos uma chamada de integração de 30 minutos gratuita e personalizada para colocá-lo em funcionamento o mais rápido possível.",
+      "Absolutamente! Nossa plataforma é flexível e você pode fazer upgrade ou downgrade do seu plano a qualquer momento. As mudanças são aplicadas imediatamente e você só paga a diferença proporcional. Não há taxas de cancelamento ou penalidades por mudança de plano.",
     isOpen: false,
   },
   {
     question: "Qual é a sua política de cancelamento?",
     response:
-      "Sim, você pode nos experimentar gratuitamente por 30 dias. Se você quiser, forneceremos uma chamada de integração de 30 minutos gratuita e personalizada para colocá-lo em funcionamento o mais rápido possível.",
+      "Oferecemos cancelamento sem complicações. Você pode cancelar sua assinatura a qualquer momento através do painel de controle ou entrando em contato com nosso suporte. Não há taxas de cancelamento, multas ou perguntas desnecessárias. Seus dados são mantidos por 30 dias após o cancelamento caso você queira retornar.",
     isOpen: false,
   },
   {
     question: "Como funciona o faturamento?",
     response:
-      "Sim, você pode nos experimentar gratuitamente por 30 dias. Se você quiser, forneceremos uma chamada de integração de 30 minutos gratuita e personalizada para colocá-lo em funcionamento o mais rápido possível.",
+      "O faturamento é simples e transparente. Cobramos mensalmente ou anualmente (com desconto de 20% no plano anual). Aceitamos todos os principais cartões de crédito e débito. O faturamento acontece automaticamente no mesmo dia do mês em que você se inscreveu. Você recebe um recibo por email após cada cobrança.",
     isOpen: false,
   },
   {
     question: "Como altero o email da minha conta?",
     response:
-      "Sim, você pode nos experimentar gratuitamente por 30 dias. Se você quiser, forneceremos uma chamada de integração de 30 minutos gratuita e personalizada para colocá-lo em funcionamento o mais rápido possível.",
+      "Para alterar o email da sua conta, acesse as configurações do perfil no painel de controle. Você precisará confirmar o novo email através de um link de verificação que enviaremos. Por segurança, todas as sessões ativas serão encerradas após a mudança. O processo leva apenas alguns minutos.",
     isOpen: false,
   },
 ];
