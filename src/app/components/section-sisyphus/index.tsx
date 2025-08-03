@@ -7,7 +7,7 @@ const SectionSisyphus = () => {
       <GridContainer>
         <div className="flex flex-col items-center gap-8">
           <Image
-            src="/assets/sisyphus.svg"
+            src="/assets/sisyphus.png"
             alt="sisyphus"
             width={140}
             height={40}
