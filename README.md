@@ -23,7 +23,7 @@ Uma landing page moderna e responsiva desenvolvida com Next.js 15, React 19 e Ta
 1. **Clone o repositório**
 
    ```bash
-   git clone [URL_DO_REPOSITORIO]
+   git clone https://github.com/houstonbraga/flowlytics.git
    cd flowlytics-lp
    ```
 
@@ -86,21 +86,13 @@ src/
 - `npm run start` - Inicia servidor de produção
 - `npm run lint` - Executa o linter
 
-## 🎨 Customização
-
-O projeto está estruturado para fácil customização:
-
-- **Dados**: Edite `src/app/data/data.ts` para alterar textos e links
-- **Estilos**: Modifique `src/app/globals.css` para personalizar cores e temas
-- **Componentes**: Cada seção é um componente independente
-
 ## 🔮 Uso Futuro
 
-Este template de landing page foi desenvolvido pensando em reutilização para projetos maiores. A arquitetura modular permite:
+Este template de landing page foi desenvolvido pensando em reutilização para um projeto maior. A arquitetura modular permite:
 
 - Integração fácil com backends
 - Adição de novas seções
 - Customização de temas
-- Implementação de funcionalidades avançadas (formulários, analytics, etc.)
+- Implementação de features avançadas (formulários, analytics, autenticação e etc.)
 
 Desenvolvido por Houston Braga com ❤️ usando Next.js e Tailwind CSS
