@@ -6,12 +6,6 @@ const SectionSisyphus = () => {
     <section className="bg-white py-24 mb-24">
       <GridContainer>
         <div className="flex flex-col items-center gap-8">
-          <Image
-            src="/assets/sisyphus.png"
-            alt="sisyphus"
-            width={140}
-            height={40}
-          />
           <h1 className="md:text-5xl text-3xl font-semibold max-w-6xl text-center text-gray-950">
             Temos usado sem título para iniciar todos os novos projetos e não
             podemos imaginar trabalhar sem ele.
