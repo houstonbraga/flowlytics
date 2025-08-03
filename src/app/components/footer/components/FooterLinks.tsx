@@ -14,7 +14,7 @@ const FooterLinks = ({ title, links }: FooterLinksProps) => {
           <Link
             key={index}
             href={link}
-            className="text-gray-500 hover:text-white transition-colors"
+            className="text-gray-500 text-sm hover:text-white transition-colors"
           >
             {text}
           </Link>

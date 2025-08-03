@@ -12,7 +12,7 @@ const SectionSisyphus = () => {
             width={140}
             height={40}
           />
-          <h1 className="text-5xl font-semibold max-w-6xl text-center text-gray-950">
+          <h1 className="md:text-5xl text-3xl font-semibold max-w-6xl text-center text-gray-950">
             Temos usado sem título para iniciar todos os novos projetos e não
             podemos imaginar trabalhar sem ele.
           </h1>

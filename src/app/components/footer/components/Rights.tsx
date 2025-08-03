@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export function Rights() {
   return (
-    <div className="flex justify-between items-center w-full mb-4">
+    <div className="flex md:flex-row flex-col justify-between items-center w-full mb-4">
       <Image 
         src='/assets/logo.svg'
         alt="logo"

@@ -27,31 +27,31 @@ export const listLinks = [
 
 export const itemsIcons = [
   {
-    src: "/assets/layers.svg",
+    src: "/assets/layers.png",
     alt: "layers",
     width: 146,
     height: 48,
   },
   {
-    src: "/assets/sisyphus.svg",
+    src: "/assets/sisyphus.png",
     alt: "sisyphus",
     width: 169,
     height: 48,
   },
   {
-    src: "/assets/circooles.svg",
+    src: "/assets/circooles.png",
     alt: "circooles",
     width: 183,
     height: 48,
   },
   {
-    src: "/assets/catalog.svg",
+    src: "/assets/catalog.png",
     alt: "catalog",
     width: 160,
     height: 48,
   },
   {
-    src: "/assets/quotient.svg",
+    src: "/assets/quotient.png",
     alt: "quotient",
     width: 187,
     height: 48,
